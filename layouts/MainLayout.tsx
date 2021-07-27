@@ -7,6 +7,9 @@ const MainLayout: FC = ({ children }) => {
     return (
         <>
             <Head>
+                <title>Blog App</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta name="description" content="Some blog app keywords" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
                 <link
